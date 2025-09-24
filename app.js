@@ -1,12 +1,4 @@
-// app.js
-// Simple in-memory concurrent seat booking system with seat locking and confirmation.
-// Usage: node app.js
-// Endpoints:
-// GET  /seats            -> list seats and current state
-// POST /lock/:seatId     -> { "userId": "user1" }  -> lock seat for user (1 minute)
-// POST /confirm/:seatId  -> { "userId": "user1" }  -> confirm booking (must be locked by same user)
-// POST /unlock/:seatId   -> { "userId": "user1" }  -> optional: release lock early (only lock owner)
-// Note: This example is in-memory only (not persistent). Good for learning/testing.
+
 
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -212,3 +204,4 @@ app.listen(PORT, () => {
   console.log(`Seat booking app listening on http://localhost:${PORT}`);
   console.log(`Seats initialised: ${SEAT_COUNT}. Lock TTL: ${LOCK_TTL_MS}ms`);
 });
+
