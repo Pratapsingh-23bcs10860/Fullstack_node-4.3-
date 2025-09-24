@@ -10,6 +10,6 @@ Practice-3
 <img width="2106" height="1394" alt="Screenshot 2025-09-24 151924" src="https://github.com/user-attachments/assets/46c6962a-47e6-4550-a658-7069d35ff3d4" />
 <img width="2151" height="1396" alt="Screenshot 2025-09-24 151943" src="https://github.com/user-attachments/assets/714e6387-508d-4155-af49-150469713430" />
 
-During Processing request on vscode
+During Processing request output on vscode
 
 <img width="813" height="133" alt="Screenshot 2025-09-24 152741" src="https://github.com/user-attachments/assets/d4cc7135-444e-443a-8251-f7a647dc7adb" />
